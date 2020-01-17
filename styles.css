@@ -1,0 +1,105 @@
+.health{
+  font-family: Arial;
+  font-weight: 200;
+  color: yellowgreen;
+  padding: 20px;
+  font-size: 50px;
+}
+.brick{
+  color: firebrick;
+}
+.headingbuttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headingbuttons > div{
+  padding: 20px;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.graybacking{
+  background-color: lightgray;
+  padding: 50px;
+}
+.crop{
+  height: 430px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 10px;
+}
+.maingraph{
+  display: flex;
+}
+.behealthy{
+  width: 20%;
+  padding: 20px;
+}
+.imgtitle{
+  width: 60px;
+  border: 14px solid white;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+
+}
+.imgtype{
+  width: 80px;
+  border: 14px solid yellowgreen;
+  background-color: yellowgreen;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+
+}
+.Food1{
+  height:430px;
+  background-image: url("Food1.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.Food2{
+  height:430px;
+  background-image: url("Food2.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.Food3{
+  height:430px;
+  background-image: url("Food3.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.healthiness{
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.behealthy{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.yee{
+  font-size: 18px;
+}
